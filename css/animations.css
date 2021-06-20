@@ -29,3 +29,14 @@
     z-index: -1;
   }
 }
+
+@keyframes slideMessageRow {
+  from {
+    transform: translateX(-15px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}

@@ -29,6 +29,10 @@
   animation-delay: 0.3s;
 }
 
+.after-splash .main-navbar__item-link--selected {
+  animation-delay: 3.3s;
+}
+
 .main-navbar__item-link--selected > * {
   color: var(--blue);
 }
