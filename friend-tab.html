@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Instagram Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header__column">
+        <img class="main-header__image" src="images/dreamy.jpg" />
+        <h1 class="main-header__title">사람</h1>
+      </div>
+      <div class="main-header__column">
+        <span class="main-header__icon">
+          <i class="fas fa-address-book"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="friend-screen">
+      <div class="main-notification">
+        <h3 class="main-notification__title">활동 중인 사람 없음</h3>
+        <h5 class="main-notification__content">
+          활동 중인 친구가 여기에<br />
+          표시됩니다. Messenger에 친구를<br />
+          더 초대할 수도 있습니다.
+        </h5>
+        <div class="main-notification__btn">초대하기</div>
+      </div>
+    </main>
+
+    <nav class="main-navbar">
+      <ul class="main-navbar__list">
+        <li class="main-navbar__item">
+          <a class="main-navbar__item-link" href="chatting-tab.html">
+            <i class="fas fa-comment fa-lg"></i>
+            <span class="main-navbar__item-title">채팅</span>
+          </a>
+        </li>
+        <li class="main-navbar__item">
+          <a
+            class="main-navbar__item-link main-navbar__item-link--selected"
+            href="friend-tab.html"
+          >
+            <i class="fas fa-user-friends fa-lg"></i>
+            <span class="main-navbar__item-title">사람</span>
+          </a>
+        </li>
+        <li class="main-navbar__item">
+          <a class="main-navbar__item-link" href="story-tab.html">
+            <i class="fas fa-book-open fa-lg"></i>
+            <span class="main-navbar__item-title">스토리</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+
+/* variables */
+@import "variables.css";
+
+/* reset stylesheet */
+@import "reset.css";
+
+/* animations */
+@import "animations.css";
+
+/* components */
+@import "components/main-header.css";
+@import "components/nav-bar.css";
+@import "components/main-notification.css";
+
+/* screens */
+@import "screens/chatting-tab.css";

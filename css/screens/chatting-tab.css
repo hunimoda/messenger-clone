@@ -1,0 +1,144 @@
+.chat-screen {
+  margin: 0 var(--main-margin);
+}
+
+.chat-screen__search {
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.chat-screen__search,
+.chat-screen__search-input {
+  background-color: var(--light-gray);
+}
+
+.chat-screen__search .fa-search {
+  margin: 0 8px 0 var(--main-margin);
+}
+
+.chat-screen__search-input,
+.chat-screen__search .fa-search,
+.chat-screen__search-input::placeholder {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--gray);
+}
+
+.chat-screen__search-input {
+  border: none;
+  color: var(--black);
+}
+
+.chat-screen__menus {
+  display: flex;
+}
+
+.chat-screen__menu {
+  margin: 24px 0 12px;
+  display: block;
+  width: 48px;
+}
+
+.chat-screen__menu:nth-child(n + 2) {
+  margin-left: calc(25vw - 68px);
+}
+
+.chat-screen__menu-icon {
+  background-color: var(--light-gray);
+  display: block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.chat-screen__menu-title {
+  margin-top: 6px;
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+  line-height: 14px;
+}
+
+@keyframes slideMessageRow {
+  from {
+    transform: translateX(-15px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.chat-screen__message-row {
+  opacity: 0;
+  will-change: transform;
+  animation: slideMessageRow 0.5s ease-in-out forwards;
+  display: flex;
+  margin: 10px 0;
+}
+
+.chat-screen__message-row:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.chat-screen__message-row:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.chat-screen__message-column:nth-child(n + 2) {
+  margin: 10px 0;
+}
+
+.chat-screen__message-column:last-child {
+  display: flex;
+  width: 96px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.chat-screen__message-column:nth-child(2) .chat-screen__message-subrow {
+  width: calc(100vw - 200px);
+}
+
+.chat-screen__friend-image {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: var(--main-margin);
+}
+
+.chat-screen__friend-name {
+  font-size: 14px;
+  color: #555;
+}
+
+.chat-screen__tag {
+  color: #fff;
+  background-color: #ccc;
+  font-size: 10px;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+.chat-screen__content {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 5px;
+}
+
+.chat-screen__content,
+.chat-screen__time {
+  padding-bottom: 5px;
+  font-size: 12px;
+  color: #666;
+}

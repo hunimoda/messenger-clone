@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatting - Instagram Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="main-header__column">
+        <img class="main-header__image" src="images/dreamy.jpg" />
+        <h1 class="main-header__title">채팅</h1>
+      </div>
+      <div class="main-header__column">
+        <span class="main-header__icon">
+          <i class="fas fa-camera"></i>
+        </span>
+        <span class="main-header__icon">
+          <i class="fas fa-pen"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="chat-screen">
+      <form class="chat-screen__search">
+        <i class="fas fa-search fa-lg"></i>
+        <input
+          class="chat-screen__search-input"
+          type="text"
+          placeholder="검색"
+        />
+      </form>
+
+      <div class="chat-screen__menus">
+        <div class="chat-screen__menu">
+          <span class="chat-screen__menu-icon">
+            <i class="fas fa-video"></i>
+          </span>
+          <span class="chat-screen__menu-title">룸스<br />만들기</span>
+        </div>
+      </div>
+
+      <div class="chat-screen__messages">
+        <div class="chat-screen__message-row">
+          <div class="chat-screen__message-column">
+            <img class="chat-screen__friend-image" src="images/bora.jpg" />
+          </div>
+          <div class="chat-screen__message-column">
+            <div class="chat-screen__message-subrow">
+              <span class="chat-screen__friend-name">최보라</span>
+            </div>
+            <div class="chat-screen__message-subrow">
+              <span class="chat-screen__content">내일 뭐해?ㅋㅋㅋ</span>
+            </div>
+          </div>
+          <div class="chat-screen__message-column">
+            <span class="chat-screen__time">2021년 6월 20일</span>
+          </div>
+        </div>
+        <div class="chat-screen__message-row">
+          <div class="chat-screen__message-column">
+            <img class="chat-screen__friend-image" src="images/chohyeon.jpg" />
+          </div>
+          <div class="chat-screen__message-column">
+            <div class="chat-screen__message-subrow">
+              <span class="chat-screen__friend-name">송초현</span>
+              <span class="chat-screen__tag">새로운 연결 관계</span>
+            </div>
+            <div class="chat-screen__message-subrow">
+              <span class="chat-screen__content"
+                >이제 Messenger에서 친구와 메시지를 주고 받을 수 있습니다.</span
+              >
+            </div>
+          </div>
+          <div class="chat-screen__message-column">
+            <span class="chat-screen__time">2020년 12월 4일</span>
+          </div>
+        </div>
+        <div class="chat-screen__message-row">
+          <div class="chat-screen__message-column">
+            <img class="chat-screen__friend-image" src="images/jason.jpg" />
+          </div>
+          <div class="chat-screen__message-column">
+            <div class="chat-screen__message-subrow">
+              <span class="chat-screen__friend-name">Jason Mraz</span>
+            </div>
+            <div class="chat-screen__message-subrow">
+              <span class="chat-screen__content"
+                >hey bro wanna go out for a drink?</span
+              >
+            </div>
+          </div>
+          <div class="chat-screen__message-column">
+            <span class="chat-screen__time">2020년 9월 7일</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="main-navbar">
+      <ul class="main-navbar__list">
+        <li class="main-navbar__item">
+          <a
+            class="main-navbar__item-link main-navbar__item-link--selected"
+            href="chatting-tab.html"
+          >
+            <i class="fas fa-comment fa-lg"></i>
+            <span class="main-navbar__item-title">채팅</span>
+          </a>
+        </li>
+        <li class="main-navbar__item">
+          <a class="main-navbar__item-link" href="friend-tab.html">
+            <i class="fas fa-user-friends fa-lg"></i>
+            <span class="main-navbar__item-title">사람</span>
+          </a>
+        </li>
+        <li class="main-navbar__item">
+          <a class="main-navbar__item-link" href="story-tab.html">
+            <i class="fas fa-book-open fa-lg"></i>
+            <span class="main-navbar__item-title">스토리</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

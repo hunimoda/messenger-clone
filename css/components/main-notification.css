@@ -1,0 +1,27 @@
+.main-notification {
+  animation: fadeIn 0.5s ease-in-out;
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.main-notification__title {
+  font-size: 18px;
+}
+
+.main-notification__content {
+  margin-top: 10px;
+  color: #888;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.main-notification__btn {
+  background-color: var(--blue);
+  font-size: 13px;
+  color: #fff;
+  width: 200px;
+  margin: 15px auto;
+  padding: 10px 0;
+  border-radius: 8px;
+}
