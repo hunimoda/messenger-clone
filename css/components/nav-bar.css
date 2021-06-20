@@ -31,7 +31,7 @@
 }
 
 .after-splash .main-navbar__item-link--selected {
-  animation-delay: 3.3s;
+  animation-delay: 1.8s;
 }
 
 .main-navbar__item-link--selected > * {
